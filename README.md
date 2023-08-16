@@ -2,6 +2,7 @@
 I am a graduate student passionate about technology and computer science. Currently, I am actively seeking new graduate positions or co-op opportunities to apply and expand my knowledge and skills.
 ### About Me
 - 🎓 Pursuing my Master's in Computer Science at Arizona State University.
+- 🔭 Currenty working as a Graduate Services Assistant under Prof. Teresa Wu at Wu labs ASU. Assisting in research for Biomedical Imaging , Deep Learning and Computer Vision.
 - 🌱 I'm passionate about exploring the vast realms of Artificial Intelligence, Machine Learning, Computer Vision, and Natural Language Processing.
 - 📊 Fascinated by the power of data, I also enjoy Data Visualization and Data Analytics to derive valuable insights.
 - 💼 Open to new opportunities.
