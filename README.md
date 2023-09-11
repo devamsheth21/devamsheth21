@@ -7,7 +7,7 @@ I am a graduate student passionate about technology and computer science. Curren
 - 📊 Fascinated by the power of data, I also enjoy Data Visualization and Data Analytics to derive valuable insights.
 - 💼 Open to new opportunities.
 - 📝 I occasionally write technical articles on my [Medium](https://medium.com/@devamsheth20) profile.
-- 📲 You can reach me at dmsheth1@asu.edu or [linkedin.com/in/devam-sheth21](linkedin.com/in/devam-sheth21)
+- 📲 You can reach me at dmsheth1@asu.edu or [linkedin.com/in/devam-sheth21](https://www.linkedin.com/in/devam-sheth21)
 
 <!--
 **devamsheth21/devamsheth21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
