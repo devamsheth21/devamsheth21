@@ -1,67 +1,19 @@
-# Devam Sheth - Portfolio Website
+# Hi, I'm Devam Sheth 👋
 
-A minimal single-page portfolio built with pure HTML & CSS.
+Fascinated by the wonders of nature and the complexities of human behavior, I love exploring new ideas and expanding my understanding of the human mind, intelligence, and science in general.
 
-## Preview Locally
+### About Me
 
-Run this command in the project folder:
+- 🌱 I'm currently learning about AI agents and how to make AI agents efficient for personal workflow.
+- SDE-AI/ML@AWS focusing on Productionizing AI features and improving the systems that power them at scale.
+- 🔭 Worked as a Data Scientist at Mayo Clinic, advancing AI in Healthcare 😄.
+- 🎓 Graduated with Master's in Computer Science at Arizona State University.
+- 🔭 Worked as a Graduate Services Assistant under Prof. Teresa Wu at Wu labs ASU. Assisting in research for Biomedical Imaging, Deep Learning, Computer Vision and Natural Language Processing (NLP).
+- 🌱 I'm passionate about exploring the vast realms of Artificial Intelligence, Machine Learning, Computer Vision, and NLP and I love MATH.
+- 📊 Fascinated by the power of data, I also enjoy Data Visualization and Data Analytics to derive valuable insights.
+- 💼 Open to new opportunities, discussing Ideas surrounding Humans and Intelligence.
+- 📝 I occasionally write technical articles on my [Medium](https://medium.com/@devamsheth20) profile.
+- 📲 You can reach me at devamsheth20@gmail.com or [linkedin.com/in/devam-sheth21](https://www.linkedin.com/in/devam-sheth21)
 
-```bash
-npx serve .
-```
-
-Or if you have Python installed:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open http://localhost:8000 in your browser.
-
----
-
-## Editing the Site
-
-### 1. About Section
-Edit the content in `index.html` under `<!-- About section -->`. Look for:
-- Your bio introduction (the `about-intro` paragraph)
-- The timeline entries
-
-### 2. Projects Section
-Edit `index.html` under `<!-- Projects section -->`. Each project card has:
-- `<h3>` - Project title
-- `<p>` - One-sentence description
-- `<a>` - GitHub link
-
-### 3. Writing Section
-Automatically loads from Medium RSS feed. To change, edit the JavaScript in `index.html`.
-
-### 4. Resume Section
-Edit `index.html` under `<!-- Resume section -->`. Update the PDF URL in the button `href`.
-
-### 5. Contact Section
-Update social links in the hero section or edit `index.html` under `<!-- Contact section -->`.
-
----
-
-## Deploying to GitHub Pages
-
-The site is automatically deployed from the `main` branch.
-
-Your site is live at: **https://devamsheth21.github.io**
-
----
-
-## Customization
-
-### Colors
-Edit `style.css` to change colors:
-- Primary accent: `#2563eb` (search for this)
-- Background: `#fafafa`
-- Text: `#333`
-
----
-
-## License
-
-MIT
+### My Portfolio
+Check out my portfolio website: [devamsheth21.github.io](https://devamsheth21.github.io)
