@@ -16,4 +16,4 @@ Fascinated by the wonders of nature and the complexities of human behavior, I lo
 - 📲 You can reach me at devamsheth20@gmail.com or [linkedin.com/in/devam-sheth21](https://www.linkedin.com/in/devam-sheth21)
 
 ### My Portfolio
-Check out my portfolio website: [devamsheth21.github.io](https://devamsheth21.github.io)
+Check out my portfolio website: [devamsheth21.github.io](https://devamsheth21.github.io/devamsheth21/)
