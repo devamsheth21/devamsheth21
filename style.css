@@ -327,6 +327,18 @@ a:hover {
     border-color: #ddd;
 }
 
+/* Skills */
+.about-skills {
+    margin-bottom: 2.5rem;
+}
+
+.about-skills h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
 /* Publications */
 .about-publications {
     margin-bottom: 2rem;
@@ -470,6 +482,56 @@ a:hover {
     flex-wrap: wrap;
 }
 
+/* Essays Section */
+.essay-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 4px solid #2563eb;
+}
+
+.essay-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: #ddd;
+    border-left-color: #2563eb;
+}
+
+.essay-card-content {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.essay-card-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.4;
+}
+
+.essay-excerpt {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.essay-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1d4ed8;
+    background: #dbeafe;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}
+
 /* Projects Section */
 .projects-grid {
     display: grid;
@@ -497,6 +559,11 @@ a:hover {
 }
 
 .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Touch devices: JS toggles .flipped on tap since hover doesn't exist on mobile */
+.flip-card.flipped .flip-card-inner {
     transform: rotateY(180deg);
 }
 

@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devam Sheth - Portfolio</title>
+    <title>Devam Sheth — AI/ML Engineer & Writer</title>
+    <meta name="description" content="Devam Sheth is a Software Engineer (AI/ML) at AWS, productionizing AI features at scale. Portfolio of AI/ML projects, technical writing, and essays on agent-based AI architectures.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devamsheth21.github.io/devamsheth21/">
+    <meta property="og:title" content="Devam Sheth — AI/ML Engineer & Writer">
+    <meta property="og:description" content="SDE (AI/ML) at AWS. Projects in multimodal LLMs, computer vision, and data visualization; writing on AI, ML, and agent-based architectures.">
+    <meta property="og:image" content="https://devamsheth21.github.io/devamsheth21/images/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Devam Sheth — AI/ML Engineer & Writer">
+    <meta name="twitter:description" content="SDE (AI/ML) at AWS. Projects, technical writing, and essays on agent-based AI architectures.">
+    <meta name="twitter:image" content="https://devamsheth21.github.io/devamsheth21/images/profile.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +23,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#writing">Writing</a></li>
+                <li><a href="#essays">Essays</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#resume">Resume</a></li>
             </ul>
@@ -49,7 +60,22 @@
             <div class="container">
                 <h2 class="section-title">About</h2>
                 <p class="about-intro">Hi, I'm Devam Sheth 👋<br>
-                Fascinated by the wonders of nature and the complexities of human behavior, I love exploring new ideas and expanding my understanding of the human mind, intelligence, and science in general.</p>
+                Fascinated by the wonders of nature and the complexities of human behavior, I love exploring new ideas and expanding my understanding of the human mind, intelligence, and science in general.<br>
+                These days I productionize AI features at AWS — building and improving the systems that power them at scale — and I'm especially drawn to agent-based architectures: AI systems that coordinate with each other instead of working alone.</p>
+
+                <div class="about-skills">
+                    <h3>Skills</h3>
+                    <ul class="about-list">
+                        <li>PyTorch</li>
+                        <li>LLM Agents</li>
+                        <li>ML Systems at Scale</li>
+                        <li>Computer Vision</li>
+                        <li>NLP</li>
+                        <li>Deep Learning</li>
+                        <li>Data Visualization</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
                 
                 <div class="timeline">
                     <div class="timeline-item">
@@ -104,16 +130,60 @@
             </div>
         </section>
 
-        <!-- Writing section: dynamically loaded from Medium RSS feed -->
+        <!-- Writing section: static cards (updated 2026-10-03). Add a new .writing-card here when you publish. -->
         <section id="writing" class="section">
             <div class="container">
                 <h2 class="section-title">Writing</h2>
                 <p class="writing-intro">I write about AI, ML, and data on Medium.</p>
                 <div id="medium-posts" class="writing-grid">
-                    <p class="loading">Loading articles from Medium...</p>
+                    <article class="writing-card">
+                        <div class="writing-card-content">
+                            <h3><a href="https://medium.com/@devamsheth20/conversational-human-beings-60c65d3132e1" target="_blank" rel="noopener">Conversational Human Beings</a></h3>
+                            <p class="writing-card-excerpt">What sets humans apart from AI models? The ability to communicate — to interpret the world through one's own framework and convey that understanding to others. An essay on communication as the signature of intelligence, and what it implies for the road to AGI.</p>
+                            <span class="writing-card-date">Mar 4, 2025</span>
+                        </div>
+                    </article>
+                    <article class="writing-card">
+                        <div class="writing-card-content">
+                            <h3><a href="https://medium.com/@devamsheth20/clip-contrastive-language-image-pretraining-323a70353efe" target="_blank" rel="noopener">CLIP (Contrastive Language–Image Pretraining)</a></h3>
+                            <p class="writing-card-excerpt">Conventional vision models are too task-specific, trained on narrow predefined labels. This post walks through how CLIP's contrastive pretraining changed that — and why it mattered.</p>
+                            <span class="writing-card-date">Feb 25, 2025</span>
+                        </div>
+                    </article>
+                    <article class="writing-card">
+                        <div class="writing-card-content">
+                            <h3><a href="https://medium.com/@devamsheth20/how-to-plot-misclassified-images-of-your-image-classification-model-8d464e15d6d7" target="_blank" rel="noopener">How to Plot Misclassified Images of Your Image Classification Model</a></h3>
+                            <p class="writing-card-excerpt">A practical walkthrough: reading a CNN's confusion matrix to find the handful of images dragging down accuracy — and visualizing them so you can see what the model gets wrong.</p>
+                            <span class="writing-card-date">Jun 13, 2023</span>
+                        </div>
+                    </article>
+                    <article class="writing-card">
+                        <div class="writing-card-content">
+                            <h3><a href="https://medium.com/@devamsheth20/statistical-test-for-k-means-cluster-validation-in-python-using-sorted-similarity-matrix-1e644ab029c0" target="_blank" rel="noopener">Statistical Test for K-means Cluster Validation in Python</a></h3>
+                            <p class="writing-card-excerpt">Clusters are only as good as their validation. Using sorted similarity matrices in Python to test whether your k-means clusters actually hold up.</p>
+                            <span class="writing-card-date">Jun 9, 2023</span>
+                        </div>
+                    </article>
                 </div>
                 <div class="writing-links">
                     <a href="https://medium.com/@devamsheth20" target="_blank" rel="noopener" class="btn">View all posts on Medium</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Essays section: longer-form thinking. Replace the placeholder card below when the essay is published. -->
+        <section id="essays" class="section">
+            <div class="container">
+                <h2 class="section-title">Essays</h2>
+                <p class="writing-intro">Longer-form thinking on AI, agents, and how intelligent systems should be built.</p>
+                <div class="writing-grid">
+                    <article class="essay-card">
+                        <div class="essay-card-content">
+                            <span class="essay-badge">Coming soon</span>
+                            <h3>Every Service Needs an Agent</h3>
+                            <p class="essay-excerpt">On domain-native agents: why every service should expose an agent-fronted access layer, and why agent-to-agent delegation — not ever-bigger general agents — is the natural architecture for AI systems. Motivated by context bloat, unclear tool-task fit, and a page from nature: ants and bees are efficient precisely because each has a defined scope.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -133,7 +203,6 @@
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <h3>MLLM Hallucination Evaluation</h3>
                                     <p>Evaluating Multimodal LLMs like InstructBLIP and Open-Flamingo for hallucination detection.</p>
                                     <a href="https://github.com/devamsheth21/MLLM-hallucination-evaluation" target="_blank" rel="noopener" class="btn">View Project →</a>
                                 </div>
@@ -150,7 +219,6 @@
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <h3>NASA Exoplanets</h3>
                                     <p>Interactive D3.js visualization with k-means clustering for NASA Exoplanets data.</p>
                                     <a href="https://devamsheth21.github.io/NASA-Exoplanets-Visualization-and-Clustering/" target="_blank" rel="noopener" class="btn">View Live Demo →</a>
                                 </div>
@@ -167,7 +235,6 @@
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <h3>VAST Challenge 2021</h3>
                                     <p>Data visualization for investigating missing persons using GPS and credit card data.</p>
                                     <a href="https://devamsheth21.github.io/Vast-MC2-2021-Data-Visualization-Project/" target="_blank" rel="noopener" class="btn">View Live Demo →</a>
                                 </div>
@@ -184,7 +251,6 @@
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <h3>Finite Element Analysis</h3>
                                     <p>Python code for calculating stiffness matrices and stresses in trusses and springs.</p>
                                     <a href="https://github.com/devamsheth21/Finite-Element-Analysis-codes" target="_blank" rel="noopener" class="btn">View Project →</a>
                                 </div>
@@ -201,7 +267,6 @@
                                     </div>
                                 </div>
                                 <div class="flip-card-back">
-                                    <h3>GUI Diffusion Solver</h3>
                                     <p>CFD GUI solver for 2D diffusion equation using Python tkinter.</p>
                                     <a href="https://github.com/devamsheth21/GUI_DiffusionEqn_python" target="_blank" rel="noopener" class="btn">View Project →</a>
                                 </div>
@@ -228,67 +293,17 @@
     </footer>
 
     <script>
-        // Fetch Medium articles via rss2json API
-        async function fetchMediumArticles() {
-            const container = document.getElementById('medium-posts');
-            const rssUrl = 'https://medium.com/feed/@devamsheth20';
-            const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
-
-            try {
-                const response = await fetch(apiUrl);
-                const data = await response.json();
-
-                if (data.status === 'ok' && data.items && data.items.length > 0) {
-                    // Clear loading message
-                    container.innerHTML = '';
-
-                    // Display first 4 articles
-                    const articles = data.items.slice(0, 4);
-                    
-                    articles.forEach(item => {
-                        // Extract thumbnail from content or use default
-                        let thumbnail = '';
-                        if (item.thumbnail) {
-                            thumbnail = item.thumbnail;
-                        } else {
-                            // Try to extract image from content
-                            const imgMatch = item.content.match(/<img[^>]+src="([^">]+)"/);
-                            if (imgMatch) {
-                                thumbnail = imgMatch[1];
-                            }
-                        }
-
-                        // Extract excerpt from description
-                        let excerpt = item.description.replace(/<[^>]*>/g, '').substring(0, 150) + '...';
-                        
-                        // Format date
-                        const date = new Date(item.pubDate);
-                        const dateStr = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-
-                        // Create article card
-                        const article = document.createElement('article');
-                        article.className = 'writing-card';
-                        article.innerHTML = `
-                            ${thumbnail ? `<img src="${thumbnail}" alt="${item.title}" class="writing-card-image">` : ''}
-                            <div class="writing-card-content">
-                                <h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3>
-                                <p class="writing-card-excerpt">${excerpt}</p>
-                                <span class="writing-card-date">${dateStr}</span>
-                            </div>
-                        `;
-                        container.appendChild(article);
-                    });
-                } else {
-                    container.innerHTML = '<p>No articles found. <a href="https://medium.com/@devamsheth20" target="_blank">Check my Medium profile →</a></p>';
-                }
-            } catch (error) {
-                console.error('Error fetching Medium articles:', error);
-                container.innerHTML = '<p>Unable to load articles. <a href="https://medium.com/@devamsheth20" target="_blank">View my Medium profile →</a></p>';
-            }
+        // Tap-to-flip for touch devices: hover doesn't exist on mobile,
+        // so tapping a project card flips it to reveal the details and link.
+        if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+            document.querySelectorAll('.flip-card').forEach(card => {
+                card.addEventListener('click', (e) => {
+                    // Let taps on the actual link pass through to navigation.
+                    if (e.target.closest('a')) return;
+                    card.classList.toggle('flipped');
+                });
+            });
         }
-
-        // Fetch articles when page loads
-        fetchMediumArticles();
 
         // Scroll animations
         const observerOptions = {
@@ -304,7 +319,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.section, .timeline-item, .project-card, .writing-card, .about-publications').forEach(el => {
+        document.querySelectorAll('.section, .timeline-item, .project-card, .writing-card, .essay-card, .about-publications').forEach(el => {
             el.classList.add('fade-in');
             observer.observe(el);
         });
