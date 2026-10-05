@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Service Needs an Agent — Devam Sheth</title>
+    <meta name="description" content="Why companies will have to build agent-fronted services, complementary to APIs, and why the holdouts will come around.">
+    <link rel="canonical" href="https://devamsheth21.github.io/devamsheth21/essays/every-service-needs-an-agent/">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://devamsheth21.github.io/devamsheth21/essays/every-service-needs-an-agent/">
+    <meta property="og:title" content="Every Service Needs an Agent">
+    <meta property="og:description" content="Why companies will have to build agent-fronted services, complementary to APIs, and why the holdouts will come around.">
+    <meta property="og:image" content="https://devamsheth21.github.io/devamsheth21/essays/every-service-needs-an-agent/journey.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Every Service Needs an Agent">
+    <meta name="twitter:description" content="Why companies will have to build agent-fronted services, complementary to APIs, and why the holdouts will come around.">
+    <meta name="twitter:image" content="https://devamsheth21.github.io/devamsheth21/essays/every-service-needs-an-agent/journey.png">
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        .article-wrap { max-width: 720px; margin: 0 auto; padding: 120px 24px 80px; }
+        .article-kicker { font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.7; margin-bottom: 12px; }
+        .article-wrap h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 12px; }
+        .article-sub { font-size: 1.2rem; opacity: 0.85; line-height: 1.5; margin-bottom: 8px; }
+        .article-meta { font-size: 0.9rem; opacity: 0.65; margin-bottom: 40px; }
+        .article-wrap h2 { font-size: 1.5rem; margin: 44px 0 12px; }
+        .article-wrap p { font-size: 1.08rem; line-height: 1.75; margin: 0 0 20px; }
+        .article-wrap figure { margin: 32px 0; }
+        .article-wrap figure img { width: 100%; border-radius: 8px; }
+        .article-wrap figcaption { font-size: 0.9rem; opacity: 0.65; margin-top: 8px; line-height: 1.5; }
+        .article-wrap a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+        .article-back { display: inline-block; margin-bottom: 32px; font-size: 0.95rem; text-decoration: none !important; opacity: 0.75; }
+        .article-back:hover { opacity: 1; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../" class="nav-logo">Devam Sheth</a>
+            <ul class="nav-links">
+                <li><a href="../../#about">About</a></li>
+                <li><a href="../../#writing">Writing</a></li>
+                <li><a href="../../#essays">Essays</a></li>
+                <li><a href="../../#projects">Projects</a></li>
+                <li><a href="../../#resume">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="article-wrap">
+        <a class="article-back" href="../../#essays">&larr; All essays</a>
+        <p class="article-kicker">Essay</p>
+        <h1>Every Service Needs an Agent</h1>
+        <p class="article-sub">Why companies will have to build agent-fronted services, complementary to APIs, and why the holdouts will come around</p>
+        <p class="article-meta">Devam Sheth &middot; October 2026</p>
+
+        <p>The most impressive thing an assistant can do isn't answering a hard question. It's finding the thing you can't quite describe.</p>
+
+        <p>"Where's the manual for the washing machine?" And it knows: bottom drawer of the filing cabinet, in the folder marked Appliances. That feeling, of being understood before you've found the words, is where the real value of AI lives. Not in brilliance, but in convenience. In an assistant you can talk to effortlessly, day after day, year after year, one that remembers you, that quietly does the boring, essential admin work of your life while you get on with the interesting parts.</p>
+
+        <p>We're a long way from that. And I don't think the missing piece is a smarter model. I think it's something much more mundane: boundaries of responsibility.</p>
+
+        <h2>The overworked generalist</h2>
+
+        <p>Today's agents are overworked employees with no defined scope. Every tool gets crammed into one context window. Nothing hands off cleanly to anything else. The agent burns half its energy just figuring out which tool fits which task, and spends the rest context-switching between domains it was never specialized for. Context bloat isn't a bug in this setup: it's the inevitable result of asking one generalist to do everything.</p>
+
+        <p>Nature solved this a long time ago. An ant colony doesn't work because each ant is brilliant; it works because each ant has a defined role. A beehive runs on the same principle: efficiency comes from clear scope and clean handoffs, not from heroic individuals. If we want agents that are genuinely useful at scale, they need to behave less like overworked generalists and more like organisms with jobs.</p>
+
+        <p>We already know what this looks like, because humans do it every day. Give a clever assistant one job, plan a long weekend in Chicago, and watch what happens:</p>
+
+        <figure>
+            <img src="handoff.png" alt="One coordinator, many specialists: your personal agent hands flights to the airline agent, the room to the hotel agent, and dinner to the restaurant agent">
+            <figcaption>One coordinator, many specialists: your personal agent hands flights to the airline agent, the room to the hotel agent, and dinner to the restaurant agent.</figcaption>
+        </figure>
+
+        <p>Nobody expects one person to do all of this well. We expect one person to <em>coordinate</em> specialists. That handoff layer, delegating to the right expert and stitching the results together, is exactly what's missing in agentic systems today. And it needs to exist at scale, across every domain.</p>
+
+        <h2>Agent-fronted services</h2>
+
+        <p>Here's the shift I think is coming: every service gets a native agent as its layer of access. Not instead of APIs. <em>Complementary</em> to them, the way APIs were complementary to websites.</p>
+
+        <p>Think of it as agent-fronted services. Each domain (travel, food delivery, banking, healthcare scheduling, laundry) exposes an agent that is rich with domain understanding: it knows which APIs to invoke for each task, how the domain's edge cases work, what "good" looks like. Your personal agent never needs to learn fifty tool schemas. It just talks to the service's agent, and the service's agent does what it knows best.</p>
+
+        <figure>
+            <img src="journey.png" alt="A2A service agents for a better journey: the Personal Agent asks the Email service agent for the tracking number, then the Carrier service agent for the live status">
+            <figcaption>A2A service agents for a better journey: the Personal Agent asks the Email service agent for the tracking number, then the Carrier service agent for the live status.</figcaption>
+        </figure>
+
+        <p>The connective tissue for this is already forming. Google's A2A protocol, now vendor-neutral under the Linux Foundation, with <a href="https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year" target="_blank" rel="noopener">150+ organizations</a> behind it, is the leading open standard for agents discovering and delegating to each other. The architecture settling into place has two layers: MCP connects an agent <em>down</em> into its tools and data; A2A connects an agent <em>across</em> to another agent, often run by a different company entirely. One handles the vertical, the other the horizontal.</p>
+
+        <h2>The natural progression</h2>
+
+        <p>Step back and this looks like the third act of a pattern we've watched twice before.</p>
+
+        <p>Websites made information human-readable. APIs made it machine-readable. Agent-fronted services make it <em>intent</em>-readable: you express what you want, and agents sort out the how.</p>
+
+        <figure>
+            <img src="shift.png" alt="Three interface waves: websites made information human-readable, APIs made it machine-readable, agent-fronted services make it intent-readable">
+            <figcaption>Three interface waves: websites made information human-readable, APIs made it machine-readable, agent-fronted services make it intent-readable.</figcaption>
+        </figure>
+
+        <p>Each wave collapsed the cost of coordination a little further. This one removes you, the human, from routine coordination entirely.</p>
+
+        <p>And the demand math forces it. Every personal agent out there, the general-purpose ones and the enterprise copilots, wants to <em>complete</em> tasks, not just answer questions about them. No company can afford to build and maintain bespoke integrations with each of them. But publish one agent, and every assistant can call it. One build, universal distribution. That's the only equilibrium that scales, and it's why I think this is inevitable rather than merely nice.</p>
+
+        <h2>Why the holdouts will come around</h2>
+
+        <p>The instinct right now is to block. <a href="https://www.cnn.com/2026/09/28/tech/meta-muse-ai-agents-amazon?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">Amazon blocked Muse</a>: the week-one move is always to defend the interface, because letting someone else's agent intermediate your customers feels like giving away the relationship.</p>
+
+        <p>But watch the demand. If personal agents aggregate enough of it, the volume starts flowing to whoever plays ball, and blocking starts costing more than it protects. Logistics is a fixed-asset business; utilization is everything. A holdout is rational in week one and increasingly expensive by week one hundred. Amazon may be the exception because of its sheer dominance. But for nearly everyone else, the demand will simply route around them to a competitor willing to answer their agent's call.</p>
+
+        <p>There's a precedent for how this plays out: search. When the web arrived, the companies that published early got the distribution. SEO wasn't a trick; it was the recognition that a new discovery layer had appeared and you either showed up in it or you didn't. Agent-fronted services are the same bet, one layer up. The discovery layer this time isn't a search box: it's every personal agent your customers will ever talk to.</p>
+
+        <h2>What it unlocks</h2>
+
+        <p>The near-term wins are concrete: token usage drops because no single agent has to load every domain's tooling into its context. Accuracy rises because domain expertise lives with the service agent that actually understands the edge cases. Latency improves because you're not routing every decision through one overloaded generalist.</p>
+
+        <p>There's a quieter win underneath all three: encapsulation. MCP is deterministic and auto-updating. But the <em>skill</em> for using each service, the learned procedure of which tools in which order, lives in your agent today, and it rots every time the service changes how a task works. A service agent moves that skill server-side: your personal agent expresses intent, and the service, which always knows the current dance, figures out the steps.</p>
+
+        <p>But the bigger unlock is scope. Once cross-domain coordination is cheap, entirely new categories of agentic applications become possible. The constraint on ambition right now isn't model quality. It's that agents can't hand off work.</p>
+
+        <h2>The direction is set</h2>
+
+        <p>I'll be honest about what this piece isn't: it isn't the technical design. How discovery, authentication, delegated authority, and the economics of agents-calling-agents should work: that's a whole article in itself, and it's the one I'll write next. Maybe that design is what everyone ends up adopting; maybe the industry lands somewhere adjacent. The protocol details will be argued over, as they should be.</p>
+
+        <p>But the direction? I'm confident about the direction. The missing piece was never intelligence: it was boundaries of responsibility. Agents calling agents is how companies will serve the next era of software, not as a replacement for the APIs they already have, but as the front door built on top of them. Build it now, or build it later when the demand forces your hand. Either way, you're building it.</p>
+    </main>
+</body>
+</html>
